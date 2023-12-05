@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
+  display: grid;
+  place-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* App */
+.App{
+    display: grid;
+    place-items: center;
+    width: 360px;
+    height: 379px;
+    left: 76px;
+    top: 69px;
+    margin-top: 150px;
+    background: #0B2434;
+}
+.main{
+    width: 320px;
+    height: 320px;
+    left: 20px;
+    top: 30px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+/* Die */
+.grid-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  grid-gap: 17px;
+  margin: 0 auto;
+}
+
+.item {
+  background: burlywood;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.item2{
+    background: #0B2434;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.81277px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.die-num{
+  color: black;
+}
+.die-num2{
+  color: #E5E5E5;
+}
+/*Text*/
+.text{
+  margin-top: -33px;
+  text-align: center;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;   
+    text-align: center;
+    letter-spacing: -0.03em
+
+}
+/* button */
+.re-roll{
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  color: white;
+  width: 92.16px;
+  height: 35.84px;
+  margin-top: 25px;
+  margin-left: 115px;
+  
+}
+
